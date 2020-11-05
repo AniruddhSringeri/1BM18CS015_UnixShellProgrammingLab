@@ -1,0 +1,5 @@
+echo "Enter the Temperature in fahrenheit: \c"
+read t
+a=`echo "$t - 32" | bc`
+c=`echo "$a * 5 / 9" | bc` 
+echo "$t\"F = $c\"C"
