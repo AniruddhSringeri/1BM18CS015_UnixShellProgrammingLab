@@ -1,0 +1,16 @@
+echo "Enter an Alphabet: \c"
+read ch
+yes="$ch is a Vowel."
+case $ch in
+	a) echo "$yes";;
+	A) echo "$yes";;
+	e) echo "$yes";;
+	E) echo "$yes";;
+	i) echo "$yes";;
+	I) echo "$yes";;
+	o) echo "$yes";;
+	O) echo "$yes";;
+	u) echo "$yes";;
+	U) echo "$yes";;
+	*) echo "$ch is a Consonant.";;
+esac
